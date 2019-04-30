@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+
+<script>
+		function validate(){
+		var age = document.getElementById("demo").value;
+		if (age > 21 && age < 50)
+		{
+		document.write("You Can Fuck ");
+		} else{
+		document.write("You Cant Fuck ");
+		}
+		 
+		}
+	 </script>
+ </head>
+ <body>
+   <label>Enter Your Age</label>
+			 <input type="text" id="demo"/>
+			 <button onclick="return validate()">Submit</button>
+   </body>
+   </html>
