@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-
-
-
+<head>
 <script>
 		function validate(){
-		var age = document.getElementById("demo").value;
-		if (age > 21 && age < 50)
+		var percentage = document.getElementById("demo").value;
+		if (percentage < 19 ) {
+		// document.write(" You Have Failed");
+		document.getElementById("display_marks").innerHTML = "You Have Failed";
+		 
+		}
+		else if (percentage >= 20 && percentage <= 30)
 		{
-		document.write("You Can Fuck ");
-		} else{
-		document.write("You Cant Fuck ");
+		//document.write(" You Have Passed In 3rd Class");
+		document.getElementById("display_marks").innerHTML = "You Have Passed In 3rd Class";
+		} else if (percentage >= 31 && percentage <= 50){
+		//document.write(" You Have Passed In 2nd Class ");
+		document.getElementById("display_marks").innerHTML = "You Have Passed In 2nd Class ";
+		}
+		else if (percentage >= 51 && percentage <= 80){
+		//document.write(" You Have Passed In 1st Class ");
+		document.getElementById("display_marks").innerHTML = "You Have Passed In 1st Class";
+		}
+		else{
+		//document.write(" You Have Passed In Distinction");
+		document.getElementById("display_marks").innerHTML = "You Have Passed In Distinction";
 		}
 		 
 		}
-	 </script>
- </head>
+		
+</script>
+</head>
  <body>
-   <label>Enter Your Age</label>
-			 <input type="text" id="demo"/>
-			 <button onclick="return validate()">Submit</button>
+    <label>Enter Your Percentage %</label>
+	<input type="text" id="demo"/>
+	<button onclick="return validate()">Submit</button>
+	<span id="display_marks"></span>
+	 
    </body>
-   </html>
+</html>
