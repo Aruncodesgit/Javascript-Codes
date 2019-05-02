@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+		var a = prompt("Enter the Number");
+		if (a > 5) {
+			document.write("A Is Greater "); 
+		}
+		else {
+			document.write("A Is Not Greater"); 
+		}
+</script>
+
+ 
+</head>
+ <body>
+    
+ </body>
+</html>
