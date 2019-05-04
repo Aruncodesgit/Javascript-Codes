@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script>
+    // console time
+   var a = 10;
+   console.time("test");
+   console.warn("this is just a warning");
+   console.timeEnd("test");
+   </script>
+
+
+    <script>
+    /* // console error   
+    var a = 10;
+    console.error("something went wrong");*/
+    
+    </script>
+
+
+    <script>
+    /* // console clear   
+    var a = 10;
+    console.warn("this is just a warning");
+    console.clear();*/
+    
+    </script>
+
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
