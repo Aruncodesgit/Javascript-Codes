@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Operators</title>
+
+    <script>
+    // addition
+      var a = 10;
+      var b = 5;
+      var c = a + b;
+      document.write( c );  
+      
+    </script>
+ 
+    <script>
+    // subtraction
+        var d = 10;
+        var e = 5;
+        var f = d - e;
+        document.write( f );  
+    </script>
+
+
+    <script>
+        // multiplication
+            var g = 10;
+            var h = 5;
+            var i = g * h;
+            document.write( i );  
+    </script>
+
+    <script>
+        // divisions
+            var j = 10;
+            var k = 5;
+            var l = j / k;
+            document.write( l );  
+    </script>
+
+    <script>
+        // modulus
+            var m = 10;
+            var n = 5;
+            var o = m % n;
+            document.write( o );  
+    </script> 
+    
+    <script>
+        // increment
+            var p = 10;     
+            //document.write( p ); 
+            p++;
+            document.write( p ); 
+    </script> 
+
+    <script>
+        // decrement
+            var p = 10;     
+            //document.write( p ); 
+            p--;
+            document.write( p ); 
+    </script> 
+
+    
+</head>
+<body>
+    
+</body>
+</html>
