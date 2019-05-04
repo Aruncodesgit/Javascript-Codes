@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <script>
+       // BOTH THE CONDITIONS SHOULD BE TRUE
+  /*var age = 5;
+   
+   if( age >= 20 && age <= 21 ){
+   console.log("this is right");
+   }else{
+   console.log(" this is wrong");
+   }*/
+
+   </script>
+
+    <script>
+        /*var age = 20;
+         
+         if( age >= 100|| age <= 100) {
+        
+         console.log("right");
+         }*/
+      
+         </script>
+
+    <script>
+        var a = 30;
+         
+       
+       console.log(!a <= 12);
+       
+       //if(!a >= 12 ){
+        
+        // console.log("yes u are eligible");
+        // }
+      
+    </script>
+
+  
+    <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
