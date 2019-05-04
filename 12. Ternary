@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script>
+  /*var a = 100;
+   var b;
+ // (a == 0 )? b ="true" : b = "false";
+ //b = (a == 0 )? "true" : "false";// making it in single line 
+ b = "vale is" + (a < 10 ? " true" :  " false");//using concatination
+   document.write(b);*/
+  
+  </script>
+
+  <script>
+      var a = 100;
+      if (a = 0 ) {
+          document.write("Its True");
+      }else {
+          document.write("Its False");
+      }
+  </script>
+   
+    <title>Document</title>
+</head>
+<body>
+  
+</body>.
+</html>
