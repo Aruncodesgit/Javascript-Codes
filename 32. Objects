@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <script>
+   /*var a ={
+   fname: 'iiht',
+   lastname : 'institute',
+   age : 25,
+   emailid :'iihtzoom@gmail.com',
+   movies :["sholay","3idiot","dhoom",],
+  salary : function(){
+    return 250000;
+  },
+   };
+//document.write(a);
+//document.write(a.fname);
+//document.write(a.movies);
+document.write(a.salary());
+//console.log(a);*/
+   </script>
+
+   <script>
+       var object = new Object() 
+       object.fname = "arun";
+       object.age = "28";
+       object.email = "arun70840@gmail.com";
+       object.salary = function(){
+           return 350000;
+       }
+       document.write(object.salary());
+       document.getElementById("demo").innerHtml;
+   </script>
+   
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+</body>
+</html>
